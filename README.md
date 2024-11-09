@@ -1,5 +1,5 @@
  covid-19-survival-prediction
-this project aims to predict whether a COVID-19 patient is likely to survive or not based on various features (e.g., age, gender, patient type). The prediction is performed using a trained machine learning model, which takes input features and classifies the survival status of the patient.
+this project aims to predict whether a COVID-19 patient is likely to survive or not based on various features (like- age, gender, patient type). The prediction is performed using a trained machine learning model, which takes input features and classifies the survival status of the patient.
 
 Table of Contents
 
@@ -18,25 +18,7 @@ The model was trained on a dataset containing COVID-19 patient information. Key 
 age: Patient’s age.
 gender: Gender of the patient (encoded as 0 = Female, 1 = Male).
 patient_type: Whether the patient was treated as an inpatient (1) or outpatient (0).
-Additional features related to patient health conditions and COVID-19 symptoms.
-Please note: The dataset file "Covid Data.csv" needs to be loaded in the same directory as the project for the notebook to run correctly.
-
-Installation
-Clone the Repository:
-
-bash
-Copy code
-git clone https://github.com/yourusername/COVID-19-Survival-Prediction.git
-cd COVID-19-Survival-Prediction
-Install Required Libraries: Install the libraries needed to run the notebook.
-
-bash
-Copy code
-pip install -r requirements.txt
-Load the Dataset: Ensure that the dataset file (Covid Data.csv) is present in the project directory.
-
-Usage
-Run the Jupyter Notebook: Open the data_science_project.ipynb notebook and execute the cells sequentially to preprocess data, train the model, and run predictions.
+Additional features related to patient health conditions and COVID-19 symptoms
 
 Prediction Example: Use the following code snippet to predict the survival status of a patient:
 
